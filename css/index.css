@@ -1,0 +1,34 @@
+body {
+  background-color: #e5e5e5;
+  color: #383838;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jumbotron {
+  background-color: #041e42;
+  color: #e5e5e5;
+}
+
+.navbar {
+  background-color: #ffb81c;
+}
+
+b {
+  text-align: center;
+  color: #ffb81c;
+}
+
+.games {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
